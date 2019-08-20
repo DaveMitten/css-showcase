@@ -1,0 +1,31 @@
+.animatedFade-container {
+	background-color: #3498DB;
+	width: 300px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.animatedFade-case-switch {
+	border-radius: 50px;
+	height: 100px;
+	width: 50px;
+	border: 1px solid white;
+}
+
+.animatedFade-ball {
+	height: 2px;
+	width: 2px;
+	background-color: white;
+	border: 5px solid white;
+	border-radius: 20px;
+	position: relative;
+	animation: animatedFade-move 2s infinite;
+	left: 19px;
+}
+
+@keyframes animatedFade-move {
+	0%{top: 10px; opacity: 1;}
+	100%{top: 85px; opacity: 0;}
+}

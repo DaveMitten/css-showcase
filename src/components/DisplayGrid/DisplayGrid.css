@@ -1,0 +1,26 @@
+.grid-wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+
+
+
+
+
+
+.grid-container {
+	display: grid;
+	grid-template-columns: min-content min-content min-content;
+	grid-template-rows: min-content min-content min-content;
+	grid-column-gap: 10px;
+	max-width: 100%;
+
+
+}
+.grid-item {
+	border: 1px solid whitesmoke;
+	text-align: center;
+  }
